@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
     <!-- Icon icofont -->
     <link rel="stylesheet" href="./assets/icofont/icofont.min.css"/>
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="./assets/css/responsive.css"/>
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/main.css"/>
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css"/>
     <!-- Action JavaScript -->
     <script src="./assets/js/main.js"></script>
     <title>Opipi</title>
@@ -40,11 +40,23 @@
                         let's begin 
                     </li>
                 </ul>
+                <div class="icon-navbar">
+                    <i class="icofont-navigation-menu"></i>
+                    <ul class="navbar-less-tablet">
+                        <li class="navbar-less-tablet__item"><a href="#">home</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">case studies</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">services</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">pages</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">portfolio</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">blog</a></li>
+                        <li class="navbar-less-tablet__item"><a href="#">contact</a></li>
+                    </ul>
+                </div>
             </div>
     
             <div class="introduce">
                 <div class="row">
-                    <div class="introduce__content col c-6">
+                    <div class="introduce__content col c-12 m-12 l-6">
                         <div class="introduce__header">UX Design Agency</div>
                         <div class="introduce__title">UX design cuts down development costs</div>
                         <div class="introduce__desp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
@@ -58,13 +70,13 @@
     
                         </div>
                     </div>
-                    <div class="introduce__banner col c-6">
+                    <div class="introduce__banner col c-12 m-12 l-6">
                         <img src="./assets/img/banner-img.png"/>
                     </div>
                 </div>
             </div>
             <div class="info row ">
-                <div class="col c-4">
+                <div class="col c-12 m-6 l-4">
                     <div class="info-item">
                         <div class="info-item__icon">
                             <i class="icofont-magnet"></i>
@@ -83,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col c-4">
+                <div class="col c-12 m-6 l-4">
                     <div class="info-item">
                         <div class="info-item__icon">
                             <i class="icofont-magnet"></i>
@@ -102,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col c-4">
+                <div class="col c-12 m-6 l-4">
                     <div class="info-item">
                         <div class="info-item__icon">
                             <i class="icofont-magnet"></i>
@@ -159,7 +171,7 @@
             </ul>
             <div class="single-case">
                 <div class="row">
-                    <div class="col c-4">
+                    <div class="col c-12 m-6 l-4">
                         <div class="single-case__item" style="background-image: url(./assets/img/case-studies1.jpg);">
                             <div class="content">
                                 <a href="">Process</a>
@@ -181,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col c-4">
+                    <div class="col c-12 m-6 l-4">
                         <div class="single-case__item single-case__item-top" style="background-image: url(./assets/img/case-studies2.jpg);">
                             <div class="content">
                                 <a href="">Process</a>
@@ -203,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col c-4">
+                    <div class="col c-12 m-6 l-4">
                         <div class="single-case__item" style="background-image: url(./assets/img/case-studies3.jpg);">
                             <div class="content">
                                 <a href="">Process</a>
@@ -237,22 +249,16 @@
 
     <div class="grid mt-1">
         <div class="row no-gutters">
-            <div class="col c-5">
+            <div class="col c-12 m-12 l-5">
                 <div class="services-inner">
                     <div class="services-inner__title">Offering The Best of Services</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                     </p>
                     <img src="./assets/img/women-with-table.png" alt=""/>
-                    <div class="services-list__prev">
-                        <i class="icofont-rounded-left"></i>
-                    </div>
-                    <div class="services-list__next">
-                        <i class="icofont-rounded-right"></i>
-                    </div>
                 </div>
             </div>
-            <div class="col c-7">
+            <div class="col c-12 m-12 l-7">
                 <div class="services-list">
                     <ul class="services-list__content">
                         <li class="services-list__item">
@@ -295,11 +301,17 @@
                             </div>
                         </li>
                     </ul>
+                    <div class="services-list__prev">
+                        <i class="icofont-rounded-left"></i>
+                    </div>
+                    <div class="services-list__next">
+                        <i class="icofont-rounded-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+    
     <div class="grid wide" >
         <div class="section-title mt-1">
             <h3>Trushted By</h3>
@@ -309,62 +321,62 @@
             </p>
         </div>
         <div class="row partner">
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner1.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner2.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner3.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner4.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner5.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner6.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner7.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner8.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner9.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner10.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner11.png" alt="">
                 </a>
             </div>
-            <div class="partner__item col c-2">
+            <div class="partner__item col c-4 m-3 l-2">
                 <a href="#">
                     <img src="./assets/img/partner11.png" alt="">
                 </a>
@@ -408,6 +420,122 @@
         </div>
     </div>
 
+    <div class="grid">
+        <div class="section-title mt-1">
+            <h3>Some of Our Portfolio</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="row no-gutters">
+            <div class="col c-12 m-6 l-3">
+                <div class="row no-gutters">
+                    <div class="col c-12">
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio1.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio2.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-3">
+                <div class="single-portfolio">
+                    <img src="./assets/img/portfolio3.jpg" alt="">
+                    <div class="portfolio-content">
+                        <h3>UX for Mobile Apps</h3>
+                        <a href="">
+                            <i class="icofont-link"></i>
+                        </a>
+                        <a href="">
+                            <i class="icofont-expand"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-3">
+                <div class="row no-gutters">
+                    <div class="col c-12">
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio4.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio5.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-3">
+                <div class="row no-gutters">
+                    <div class="col c-12">
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio6.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="single-portfolio">
+                            <img src="./assets/img/portfolio7.jpg" alt="">
+                            <div class="portfolio-content">
+                                <h3>UX for Mobile Apps</h3>
+                                <a href="">
+                                    <i class="icofont-link"></i>
+                                </a>
+                                <a href="">
+                                    <i class="icofont-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="grid team-area mt-1">
         <div class="grid wide">
             <div class="section-title">
@@ -416,7 +544,7 @@
                     ut labore et dolore magna aliqua.</p>
             </div>
             <div class="row">
-                <div class="single-team col c-3">
+                <div class="single-team col c-12 m-6 l-3">
                     <div class="team-img">
                         <img src="./assets/img/team1.jpg" alt="">
                         <div class="team-img__overlay">
@@ -443,7 +571,7 @@
                         <p>UX Designer</p>
                     </div>
                 </div>
-                <div class="single-team col c-3">
+                <div class="single-team col c-12 m-6 l-3">
                     <div class="team-img">
                         <img src="./assets/img/team2.jpg" alt="">
                         <div class="team-img__overlay">
@@ -470,7 +598,7 @@
                         <p>UI Designer</p>
                     </div>
                 </div>
-                <div class="single-team col c-3">
+                <div class="single-team col c-12 m-6 l-3">
                     <div class="team-img">
                         <img src="./assets/img/team3.jpg" alt="">
                         <div class="team-img__overlay">
@@ -497,7 +625,7 @@
                         <p>Product Designer</p>
                     </div>
                 </div>
-                <div class="single-team col c-3">
+                <div class="single-team col c-12 m-6 l-3">
                     <div class="team-img">
                         <img src="./assets/img/team4.jpg" alt="">
                         <div class="team-img__overlay">
@@ -602,7 +730,7 @@
                  labore et dolore magna aliqua.</p>
         </div>
         <div class="row">
-            <div class="col c-6">
+            <div class="col c-12 m-12 l-6">
                 <div class="single-blog-post">
                     <div class="post-image">
                         <a href="">
@@ -628,7 +756,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col c-6">
+            <div class="col c-12 m-12 l-6">
                 <div class="row">
                     <div class="blog-item col c-12">
                         <div class="row no-gutters single-blog-post ">
@@ -728,18 +856,20 @@
     </div>
 
     <div class="grid cta-area mt-1">
-        <div class="grid wide cta-area-align">
-            <div class="cta-content">
-                <h3>Have a project in mind?</h3>
-                <p>Let’s chat about your goals</p>
+        <div class="grid wide">
+            <div class="cta-area-align">
+                <div class="cta-content">
+                    <h3>Have a project in mind?</h3>
+                    <p>Let’s chat about your goals</p>
+                </div>
+                <div class="btn btn-primary">get started</div>
             </div>
-            <div class="btn btn-primary">get started</div>
         </div>
     </div>
 
     <div class="grid wide ">
         <div class="row footer-area mt-1">
-            <div class="col c-3">
+            <div class="col c-12 m-6 l-3">
                 <div class="single-footer">
                     <a href="">
                         <img src="./assets/img/logo.png" alt="">
@@ -773,7 +903,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col c-3">
+            <div class="col c-12 m-6 l-3">
                 <div class="single-footer">
                     <h3>Explore</h3>
                     <ul class="single-footer__list">
@@ -795,7 +925,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col c-3">
+            <div class="col c-12 m-6 l-3">
                 <div class="single-footer">
                     <h3>Quick Links</h3>
                     <ul class="single-footer__list">
@@ -817,7 +947,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col c-3">
+            <div class="col c-12 m-6 l-3">
                 <div class="single-footer">
                     <h3>Quick Links</h3>
                     <ul class="single-footer-contact">
@@ -846,7 +976,9 @@
     </div>
 
     <div class="grid copyright-area">
-        <p>Copyright © 2021 Opipi. All Rights Reserved by EnvyTheme</p>
+        <div class="copyright-area">
+            <p>Copyright © 2021 Opipi. All Rights Reserved by EnvyTheme</p>
+        </div>
     </div>
 
 </body>
